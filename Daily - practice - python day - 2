@@ -1,0 +1,8 @@
+user_prompt = "Enter a todo:"
+
+Todo1 = input(user_prompt)
+Todo2 = input(user_prompt)
+Todo3 = input(user_prompt)
+
+Todos = [Todo1, Todo2, Todo3]
+print(Todos)
