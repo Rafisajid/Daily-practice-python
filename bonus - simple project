@@ -1,0 +1,3 @@
+Book_name = input("Enter a book name:")
+length = len(Book_name)
+print("There are", length, "characters in the name of this book.")
