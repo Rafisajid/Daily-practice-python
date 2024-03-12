@@ -1,0 +1,21 @@
+Todos = []
+while True:
+    user_action = input("Type add, show and exit: ")
+    user_action = user_action.strip()
+
+    match  user_action:
+        case 'add':
+            user_prompt = input("Enter a todo: ")
+            Todos.append(user_prompt)
+        case 'show':
+            for item in Todos:
+                item.title()
+                print(item)
+        case 'exit':
+            break
+
+        case whatsoeverlajja:
+            print("Hey, what's wrong with youuuu!!!!!")
+
+print("Allah hafez----->")
+
